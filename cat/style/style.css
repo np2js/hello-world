@@ -1,0 +1,62 @@
+.gif-item {
+  width: 100%;
+}
+
+body {
+  /*overflow: hidden;*/
+}
+
+#close-your-eyes {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  top: -200px;
+}
+
+.over {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  top: 22px;
+  left: 0;
+  z-index: 10;
+}
+
+#columns div:focus {
+  outline: none;
+}
+
+.gif > div {
+  border-top: solid 1px #c7c7c7;
+  /* box-shadow: 0 0 1px 1px #e0e0e0; */
+  /* border-radius: 3px; */
+  /* margin: 12px 0; */
+  /*margin: 4px;;*/
+}
+
+.gif {
+  /*max-width: 300px;*/
+}
+
+.gif a {
+  z-index: 10;
+  margin-right: 12px;
+}
+
+.over div {
+  text-align: center;
+  top: 40%;
+  position: absolute;
+  left: 40%;
+}
+
+.gif-wrap {
+  width: 260px;
+}
+
+@media (min-width: 768px) {
+  .gif-wrap {
+    width: 500px;
+  }
+}
